@@ -1,3 +1,3 @@
-class TestClass {
-    var name: String? = ""
+class TestClass(userName: String) {
+    var userName: String? = userName
 }

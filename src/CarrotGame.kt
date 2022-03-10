@@ -1,7 +1,6 @@
 import kotlin.random.Random
 
 fun main() {
-    //as seen on https://www.youtube.com/watch?v=0UGuPvrsG3E
     println("Hit Enter to open the box")
 
     var command: String = readln()

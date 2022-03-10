@@ -1,11 +1,11 @@
 fun main(args: Array<String>){
     println("Welcome to the Program! Please enter your name!")
 
-    var person = TestClass()
+    var person = TestClass("Fareed")
 
-    person.name = readLine()
+//    person.name = readLine()
 
-    println("Hello World, it's a me: ${person.name}io")
+    println("Hello World, it's a me: ${person.userName}io")
 
 //    var a: String? = ""
 //    var b: String? = ""
@@ -28,5 +28,6 @@ fun main(args: Array<String>){
             println("Not today bro, grow a little")
         }
     }
+
 
 }
